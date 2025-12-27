@@ -1,0 +1,48 @@
+
+---
+
+## Identity Model Overview
+
+QID defines:
+
+- A permanent identity anchor  
+- A device‑bound secret used to generate resonance proofs  
+- A zero‑knowledge authentication protocol  
+- A recovery mechanism that preserves identity continuity  
+- A rotation mechanism for cryptographic freshness  
+- A governance model for institutional oversight  
+
+Identity is permanent, but devices, witnesses, and credentials are rotatable.
+
+---
+
+## Implementation Profiles
+
+This standard defines three normative profiles:
+
+- **No‑Unlock Profile** — fully device‑bound, no user secret  
+- **PIN Profile** — short user secret + device binding  
+- **Passphrase Profile** — high‑entropy user secret + device binding  
+
+Profiles define security guarantees, threat models, and conformance requirements.
+
+---
+
+## Certification & Conformance
+
+The standard includes:
+
+- Certification process  
+- Auditor guidelines  
+- Conformance test vectors  
+- Determinism and mapping tests  
+- Kernel‑level identity validation  
+
+Implementations must pass the CTS to be considered QID‑compliant.
+
+---
+
+## Publication
+
+The canonical PDF version of this standard is located in:
+
