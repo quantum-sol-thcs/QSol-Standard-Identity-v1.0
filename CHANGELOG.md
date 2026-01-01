@@ -7,7 +7,7 @@ This changelog follows sovereign QSol.llc governance and publication rules.
 ## [1.0.0] — Initial Publication
 **Status:** Published  
 **Lifecycle:** Normative  
-**Date:** YYYY‑MM‑DD
+**Date:** 2026‑01‑01
 
 ### Added
 - Initial publication of the QSol Identity Model (QID‑v1.0).
