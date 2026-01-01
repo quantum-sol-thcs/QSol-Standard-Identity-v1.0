@@ -1,48 +1,70 @@
+# QSol.llc Sovereign License — Linked Preamble
 
----
+This repository is governed by the QSol.llc Sovereign License.
 
-## Identity Model Overview
+The canonical, authoritative version of the Sovereign License is located in:
 
-QID defines:
+QSol.llc-Sovereign-Knowledge-System/constitution/Sovereign-License.tex
 
-- A permanent identity anchor  
-- A device‑bound secret used to generate resonance proofs  
-- A zero‑knowledge authentication protocol  
-- A recovery mechanism that preserves identity continuity  
-- A rotation mechanism for cryptographic freshness  
-- A governance model for institutional oversight  
+This local copy is provided solely as a convenience reference.
+In the event of any discrepancy, omission, formatting difference, or interpretive conflict,
+the canonical version in the Sovereign Knowledge System (SKS) corpus prevails absolutely.
 
-Identity is permanent, but devices, witnesses, and credentials are rotatable.
+All access, use, interpretation, and derivative activity related to this repository is subject to:
 
----
+- the Sovereign License
+- the Access Control System
+- the Temporal Hash Constraint System (THCS)
+- the SKO Lifecycle Protocols
+- the Governance Charter
+- the institutional authority of QSol.llc
 
-## Implementation Profiles
+By accessing, viewing, cloning, or interacting with any material in this repository,
+you acknowledge and accept the full binding force of the canonical Sovereign License
+and all associated institutional governance mechanisms.
 
-This standard defines three normative profiles:
+No rights are granted beyond those explicitly enumerated in the canonical license.
+No derivative rights, redistribution rights, or commercial rights are implied or inferred.
 
-- **No‑Unlock Profile** — fully device‑bound, no user secret  
-- **PIN Profile** — short user secret + device binding  
-- **Passphrase Profile** — high‑entropy user secret + device binding  
+This repository is a governed extension of the Sovereign Knowledge System (SKS).
+All artifacts herein inherit their legal, epistemic, and institutional authority
+from the canonical SKS corpus and remain subject to its provenance, lifecycle,
+and enforcement requirements.
 
-Profiles define security guarantees, threat models, and conformance requirements.
+The text that follows is a convenience copy of the Sovereign License.
+It does not supersede, modify, or replace the canonical version.
 
----
+----------------------------------------------------------------------
+# BEGIN CONVENIENCE COPY OF THE SOVEREIGN LICENSE
+# (Insert the text of your Sovereign License here)
+----------------------------------------------------------------------
 
-## Certification & Conformance
 
-The standard includes:
+[ PLACEHOLDER FOR LICENSE TEXT ]
+[ INSERT YOUR CANONICAL LICENSE CONTENT HERE ]
+[ THIS SECTION IS A LOCAL MIRROR ONLY ]
 
-- Certification process  
-- Auditor guidelines  
-- Conformance test vectors  
-- Determinism and mapping tests  
-- Kernel‑level identity validation  
 
-Implementations must pass the CTS to be considered QID‑compliant.
+----------------------------------------------------------------------
+# END CONVENIENCE COPY OF THE SOVEREIGN LICENSE
+----------------------------------------------------------------------
 
----
+# QSol.llc Sovereign License — Footer
 
-## Publication
+This repository inherits its legal authority from the canonical Sovereign License
+maintained in the Sovereign Knowledge System (SKS) corpus.
 
-The canonical PDF version of this standard is located in:
+Any interpretation of this repository’s contents must be consistent with:
+
+- the canonical Sovereign License
+- the SKO lifecycle rules
+- the THCS integrity model
+- the institutional governance structure of QSol.llc
+
+If any portion of this convenience copy becomes outdated, incomplete, or inconsistent,
+the canonical version SHALL prevail without exception.
+
+For licensing inquiries, institutional permissions, or sovereign authorization,
+contact: legal@QSol.llc
+
 
