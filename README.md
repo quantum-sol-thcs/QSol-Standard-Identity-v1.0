@@ -1,4 +1,40 @@
+# QSol.llc Sovereign License — Linked Preamble
+
+This repository is governed by the QSol.llc Sovereign License.
+
+The canonical, authoritative version of the Sovereign License is located in:
+
+QSol.llc-Sovereign-Knowledge-System/constitution/Sovereign-License.tex
+
+This local copy is provided solely as a convenience reference.
+In the event of any discrepancy, omission, formatting difference, or interpretive conflict,
+the canonical version in the Sovereign Knowledge System (SKS) corpus prevails absolutely.
+
+All access, use, interpretation, and derivative activity related to this repository is subject to:
+
+- the Sovereign License
+- the Access Control System
+- the Temporal Hash Constraint System (THCS)
+- the SKO Lifecycle Protocols
+- the Governance Charter
+- the institutional authority of QSol.llc
+
+By accessing, viewing, cloning, or interacting with any material in this repository,
+you acknowledge and accept the full binding force of the canonical Sovereign License
+and all associated institutional governance mechanisms.
+
+No rights are granted beyond those explicitly enumerated in the canonical license.
+No derivative rights, redistribution rights, or commercial rights are implied or inferred.
+
+This repository is a governed extension of the Sovereign Knowledge System (SKS).
+All artifacts herein inherit their legal, epistemic, and institutional authority
+from the canonical SKS corpus and remain subject to its provenance, lifecycle,
+and enforcement requirements.
+
+---
+
 # QSol‑Standard‑Identity‑v1.0
+
 A permanent, device‑bound, zero‑knowledge authenticated identity model with resonance proofs, secure recovery, key rotation, governance, and auditability for all QSol.llc systems.
 
 ## Permanent, Device‑Bound, Zero‑Knowledge Identity for QSol.llc Systems
@@ -11,7 +47,7 @@ This standard forms the identity layer of the QSol Integrity Suite.
 
 ---
 
-## Scope
+# Scope
 
 QSol‑Standard‑Identity‑v1.0 defines:
 
@@ -29,27 +65,36 @@ This standard is normative unless otherwise specified.
 
 ---
 
-## Relationship to Other QSol Standards
+# Relationship to Other QSol Standards
 
 QSol‑Standard‑Identity‑v1.0 is one of four pillars in the QSol Integrity Suite:
 
-| Layer | Standard | Purpose |
-|-------|----------|---------|
-| **Identity** | QSol‑Standard‑Identity‑v1.0 | Permanent identity, resonance authentication, lifecycle governance |
-| **Zero‑Knowledge Proofs** | QSol‑Standard‑ZKProofs‑v1.0 | Formal ZK framework used by the resonance oracle |
-| **Invariant Engine** | qsol‑invariants | Deterministic, PHI‑bounded state evolution |
-| **Stabilizer Layer** | DSE‑Kimbrough‑Stabilizer | Hardware‑level deterministic integrity |
+Layer | Standard | Purpose
+----- | -------- | --------
+Identity | QSol‑Standard‑Identity‑v1.0 | Permanent identity, resonance authentication, lifecycle governance
+Zero‑Knowledge Proofs | QSol‑Standard‑ZKProofs‑v1.0 | Formal ZK framework used by the resonance oracle
+Invariant Engine | qsol‑invariants | Deterministic, PHI‑bounded state evolution
+Stabilizer Layer | DSE‑Kimbrough‑Stabilizer | Hardware‑level deterministic integrity
 
 The Identity Standard consumes the ZKProofs framework to produce resonance proofs and relies on the invariant engine for state consistency.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
+spec/                 — Normative specification (machine‑readable)
+identity-model.md          — Identity model overview (non‑normative)
+LICENSE               — Sovereign License (linked)
+README.md                          — This document
+CHANGELOG.md                    — Version history
+VERSION               — Machine‑readable version tag
+AUTHORS               — Institutional authorship and provenance
+
+Code
 
 ---
 
-## Identity Model Overview
+# Identity Model Overview
 
 QID defines:
 
@@ -64,7 +109,7 @@ Identity is permanent, but devices, witnesses, and credentials are rotatable.
 
 ---
 
-## Implementation Profiles
+# Implementation Profiles
 
 This standard defines three normative profiles:
 
@@ -76,7 +121,7 @@ Profiles define security guarantees, threat models, and conformance requirements
 
 ---
 
-## Certification & Conformance
+# Certification & Conformance
 
 The standard includes:
 
@@ -90,15 +135,35 @@ Implementations must pass the CTS to be considered QID‑compliant.
 
 ---
 
-## Publication
+# Publication
 
 The canonical PDF version of this standard is located in:
 
+`/publication/QSol-Standard-Identity-v1.0.pdf`
 
 All normative text is duplicated in the `spec/` directory for machine‑readable consumption.
 
 ---
 
-## License
+# License
 
 This standard is published under the license included in `LICENSE`.
+
+---
+
+# QSol.llc Sovereign License — Footer
+
+This repository inherits its legal authority from the canonical Sovereign License
+maintained in the Sovereign Knowledge System (SKS) corpus.
+
+Any interpretation of this repository’s contents must be consistent with:
+
+- the canonical Sovereign License  
+- the SKO lifecycle rules  
+- the THCS integrity model  
+- the institutional governance structure of QSol.llc  
+
+If any portion of this convenience copy becomes outdated, incomplete, or inconsistent,
+the canonical version SHALL prevail without exception.
+
+For licensing inquiries or sovereign authorization, contact: legal@QSol.llc
